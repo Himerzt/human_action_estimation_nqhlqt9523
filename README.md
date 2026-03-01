@@ -12,21 +12,38 @@ Dự án tập trung xây dựng hệ thống giám sát thông minh, tự độ
 
 ## 🎥 2. Demo & Hình ảnh thực tế
 
-| Nhận diện CLIMB & FALL (Leo/Ngã) | Nhận diện SITTING (Ngồi) |
-| :---: | :---: |
-| <video src="gif/climb_fall.mp4" width="100%" controls muted></video> | <video src="gif/sit.mp4" width="100%" controls muted></video> |
-| *Mô hình xử lý leo trèo và chuyển đổi trạng thái* | *Nhận diện tư thế ngồi hằng ngày* |
+| Nhận diện CLIMB & FALL (Leo/Ngã)
 
-| Nhận diện hành vi FALL (Té ngã) | Cảnh báo qua Telegram |
-| :---: | :---: |
-| <video src="gif/falling.mp4" width="100%" controls muted></video> | ![Telegram Alert](img/detection_via_telegram.jpg) |
-| *Bắt trọn khoảnh khắc té ngã thực tế* | *Thông báo tức thời kèm ảnh chụp hiện trường* |
 
-## 🚀 3. Thành tựu nổi bật
-* **Độ chính xác vượt trội:** Mô hình Fusion (kết hợp Ảnh + Keypoints) đạt mức **98.11%**, vượt xa mức baseline 86.6%.
-* **Vận hành ổn định:** Mô hình dựa trên khung xương (Keypoints-based) hoạt động bền vững bất kể sự thay đổi của ánh sáng, màu sắc trang phục hay hậu cảnh phức tạp.
-* **Tốc độ xử lý:** Đạt ngưỡng gần thời gian thực (~4-5 FPS) trên cấu hình phần cứng phổ thông.
-* **Cảnh báo tức thời:** Tự động chụp ảnh và gửi thông báo qua **Telegram Bot** khi phát hiện hành vi nguy hiểm kéo dài ≥ 3 giây.
+https://github.com/user-attachments/assets/cc4384bd-3ddb-43fe-8a49-cb9928bddb43
+
+
+| Nhận diện SITTING (Ngồi) |
+
+
+https://github.com/user-attachments/assets/106fa783-d03d-4ac8-82da-3029d2a515b7
+
+
+| Nhận diện hành vi FALL (Té ngã) 
+
+
+https://github.com/user-attachments/assets/63c4c6c1-9023-4449-ae6f-29ce8ec32ca7
+
+
+https://github.com/user-attachments/assets/d1971ffd-adfc-40a0-b44d-c9d358d13653
+
+
+
+| Cảnh báo qua Telegram |
+<img width="1124" height="550" alt="detection_via_telegram" src="https://github.com/user-attachments/assets/ace6cf57-4305-49b1-b022-610a4884e9a3" />
+
+
+## 🚀 3. Thành tựu nổi bật (Key Achievements)
+
+* **Kết quả nghiên cứu ấn tượng:** Đạt độ chính xác thử nghiệm (Test Accuracy) lên đến **98.11%** khi thử nghiệm với kiến trúc **Fusion Model** (kết hợp đặc trưng hình ảnh và khung xương).
+* **Tư duy triển khai thực tế:** Quyết định lựa chọn mô hình **Keypoint-based (86.60%)** để vận hành chính thức nhằm ưu tiên tính **ổn định (Robustness)**. Mô hình này giúp hệ thống hoạt động bền vững, ít bị ảnh hưởng bởi sự thay đổi ánh sáng, màu sắc trang phục hay hậu cảnh phức tạp so với các mô hình thuần hình ảnh.
+* **Hiệu năng thời gian thực:** Duy trì tốc độ xử lý ổn định từ **5-10 FPS** trên các thiết bị cấu hình phổ thông, đáp ứng tốt yêu cầu giám sát và phản hồi tức thì.
+* **Hệ thống cảnh báo thông minh:** Xây dựng thành công luồng thông báo tự động qua **Telegram Bot**, tự động gửi hình ảnh hiện trường ngay khi phát hiện hành vi nguy hiểm (té ngã, leo trèo) kéo dài $\ge$ 3 giây.
 
 ## 🏗️ 4. Kiến trúc kỹ thuật (Pipeline)
 Hệ thống vận hành thông qua quy trình xử lý đa tầng:
@@ -49,8 +66,8 @@ So sánh hiệu năng giữa các kiến trúc mô hình trên tập Test:
 | **Fusion Model** | 98.11% | Thấp (Dễ Overfitting) |
 
 ## 📂 7. Tài nguyên bổ sung
-* **Mã nguồn đầy đủ & Trọng số:** [Link Google Drive](#)[cite: 540].
-* **Báo cáo khóa luận (Full PDF):** [Xem tại đây](#)[cite: 50, 67].
+
+* **Báo cáo khóa luận:** [Xem tại đây](https://drive.google.com/drive/folders/1ey-TjmuKZNOPbtzXVW4Stl34Pzc8NXFJ).
 
 ## 🤝 8. Thông tin tác giả
 * **Nguyễn Quốc Huy** - Đại học Công nghiệp TP. Hồ Chí Minh (IUH).
@@ -59,6 +76,7 @@ So sánh hiệu năng giữa các kiến trúc mô hình trên tập Test:
 
 ---
 *Dự án thực hiện vào tháng 12/2025*.
+
 
 
 
