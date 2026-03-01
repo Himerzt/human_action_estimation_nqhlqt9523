@@ -14,12 +14,12 @@ Dự án tập trung xây dựng hệ thống giám sát thông minh, tự độ
 
 | Nhận diện CLIMB & FALL (Leo/Ngã) | Nhận diện SITTING (Ngồi) |
 | :---: | :---: |
-| <video src="./gif/climb_fall.mp4" width="350"></video> | <video src="./gif/sit.mp4" width="350"></video> |
+| <video src="gif/climb_fall.mp4" width="100%" controls muted></video> | <video src="gif/sit.mp4" width="100%" controls muted></video> |
 | *Mô hình xử lý leo trèo và chuyển đổi trạng thái* | *Nhận diện tư thế ngồi hằng ngày* |
 
 | Nhận diện hành vi FALL (Té ngã) | Cảnh báo qua Telegram |
 | :---: | :---: |
-| <video src="./gif/falling.mp4" width="350"></video> | ![Telegram Alert](./gif/telegram_alert.jpg) |
+| <video src="gif/falling.mp4" width="100%" controls muted></video> | ![Telegram Alert](img/detection_via_telegram.jpg) |
 | *Bắt trọn khoảnh khắc té ngã thực tế* | *Thông báo tức thời kèm ảnh chụp hiện trường* |
 
 ## 🚀 3. Thành tựu nổi bật
@@ -59,6 +59,7 @@ So sánh hiệu năng giữa các kiến trúc mô hình trên tập Test:
 
 ---
 *Dự án thực hiện vào tháng 12/2025*.
+
 
 
 
