@@ -4,7 +4,6 @@
 ![YOLOv8](https://img.shields.io/badge/Detection-YOLOv8m-red)
 ![OpenPose](https://img.shields.io/badge/Pose-OpenPose_BODY__25-orange)
 ![LSTM](https://img.shields.io/badge/Sequence-LSTM-yellow)
-![Accuracy](https://img.shields.io/badge/Độ_chính_xác-98.11%25-green)
 
 ## 📌 1. Tổng quan dự án
 Dự án tập trung xây dựng hệ thống giám sát thông minh, tự động nhận diện các hành động nguy hiểm (ngã, leo trèo) trong môi trường trong nhà nhằm hỗ trợ chăm sóc người cao tuổi và trẻ nhỏ. Hệ thống kết hợp các mô hình học sâu hiện đại để phân tích tư thế người và chuỗi chuyển động theo thời gian thực.
@@ -12,12 +11,18 @@ Dự án tập trung xây dựng hệ thống giám sát thông minh, tự độ
 **Các hành động mục tiêu:** `Đứng (STAND)`, `Ngồi (SIT)`, `Nằm (LIEDOWN)`, `Leo (CLIMB)`, và `Té ngã (FALL)`.
 
 ## 🎥 2. Demo & Hình ảnh thực tế
-*(Gợi ý: Huy hãy thay các đường dẫn này bằng link ảnh/GIF thực tế từ repo của ông)*
 
-| Phát hiện hành vi FALL | Cảnh báo qua Telegram | Giao diện Web kiểm thử |
-| :---: | :---: | :---: |
-| ![Fall Demo](https://via.placeholder.com/300x200) | ![Telegram Alert](https://drive.google.com/drive/folders/1YiaWHanmiXc8hNfJb7ARlnIp1RghVPOb/300x200) | ![Web UI](https://via.placeholder.com/300x200) |
-| *Hình 3:2: Nhận diện ngã*  | *Hình 3:3: Thông báo khẩn*  | *Hình 3:6: Dashboard hệ thống*  |
+Hệ thống hoạt động ổn định với các hành động có biên độ chuyển động khác nhau, từ các tư thế tĩnh đến các hành vi nguy hiểm diễn ra nhanh.
+
+| Nhận diện CLIMB & FALL (Leo/Ngã) | Nhận diện SITTING (Ngồi) |
+| :---: | :---: |
+| ![Climb & Fall Demo](https://drive.google.com/uc?id=1uYxBiCPDnKDX3hPPJ5h0k5NBOpkLPvYR) | ![Sitting Demo](https://drive.google.com/uc?id=1ojb1A-EZ-YMEiIizn5xGjqh-vkodWdUy) |
+| *Mô hình xử lý leo trèo và chuyển đổi trạng thái* | *Nhận diện tư thế ngồi hằng ngày* |
+
+| Nhận diện hành vi FALL (Té ngã) | Cảnh báo qua Telegram |
+| :---: | :---: |
+| ![Fall Demo](https://drive.google.com/uc?id=1B4VJfd-5L4IOFMOcbjW04rnp-9cgpTw0) | ![Telegram Alert](https://drive.google.com/uc?id=1ioo9wUm1lMq914BGk8Xa8l4CIy_K8X2x) |
+| *Bắt trọn khoảnh khắc té ngã thực tế* | *Thông báo tức thời kèm ảnh chụp hiện trường* |
 
 ## 🚀 3. Thành tựu nổi bật
 * **Độ chính xác vượt trội:** Mô hình Fusion (kết hợp Ảnh + Keypoints) đạt mức **98.11%**, vượt xa mức baseline 86.6%.
@@ -56,6 +61,7 @@ So sánh hiệu năng giữa các kiến trúc mô hình trên tập Test:
 
 ---
 *Dự án thực hiện vào tháng 12/2025*.
+
 
 
 
