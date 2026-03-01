@@ -1,4 +1,4 @@
-# 🛡️ Hệ Thống Giám Sát và Cảnh Báo Hành Động Nguy Hiểm (Human Action Detection)
+# Hệ Thống Giám Sát và Cảnh Báo Hành Động Nguy Hiểm (Human Action Detection)
 
 ![Python](https://img.shields.io/badge/Ngôn_ngữ-Python_3.8%2B-blue)
 ![YOLOv8](https://img.shields.io/badge/Detection-YOLOv8m-red)
@@ -7,7 +7,7 @@
 ![Accuracy](https://img.shields.io/badge/Độ_chính_xác-98.11%25-green)
 
 ## 📌 1. Tổng quan dự án
-Dự án tập trung xây dựng hệ thống giám sát thông minh, tự động nhận diện các hành động nguy hiểm (ngã, leo trèo) trong môi trường trong nhà nhằm hỗ trợ chăm sóc người cao tuổi và trẻ nhỏ[cite: 70, 71, 235, 236]. [cite_start]Hệ thống kết hợp các mô hình học sâu hiện đại để phân tích tư thế người và chuỗi chuyển động theo thời gian thực.
+Dự án tập trung xây dựng hệ thống giám sát thông minh, tự động nhận diện các hành động nguy hiểm (ngã, leo trèo) trong môi trường trong nhà nhằm hỗ trợ chăm sóc người cao tuổi và trẻ nhỏ. Hệ thống kết hợp các mô hình học sâu hiện đại để phân tích tư thế người và chuỗi chuyển động theo thời gian thực.
 
 **Các hành động mục tiêu:** `Đứng (STAND)`, `Ngồi (SIT)`, `Nằm (LIEDOWN)`, `Leo (CLIMB)`, và `Té ngã (FALL)`.
 
@@ -56,4 +56,5 @@ So sánh hiệu năng giữa các kiến trúc mô hình trên tập Test:
 
 ---
 *Dự án thực hiện vào tháng 12/2025*.
+
 
