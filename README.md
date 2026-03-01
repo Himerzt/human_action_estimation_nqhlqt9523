@@ -12,16 +12,14 @@ Dự án tập trung xây dựng hệ thống giám sát thông minh, tự độ
 
 ## 🎥 2. Demo & Hình ảnh thực tế
 
-Hệ thống hoạt động ổn định với các hành động có biên độ chuyển động khác nhau, từ các tư thế tĩnh đến các hành vi nguy hiểm diễn ra nhanh.
-
 | Nhận diện CLIMB & FALL (Leo/Ngã) | Nhận diện SITTING (Ngồi) |
 | :---: | :---: |
-| ![Climb & Fall Demo](https://drive.google.com/uc?id=1uYxBiCPDnKDX3hPPJ5h0k5NBOpkLPvYR) | ![Sitting Demo](https://drive.google.com/uc?id=1ojb1A-EZ-YMEiIizn5xGjqh-vkodWdUy) |
+| <video src="./gif/climb_fall.mp4" width="350"></video> | <video src="./gif/sit.mp4" width="350"></video> |
 | *Mô hình xử lý leo trèo và chuyển đổi trạng thái* | *Nhận diện tư thế ngồi hằng ngày* |
 
 | Nhận diện hành vi FALL (Té ngã) | Cảnh báo qua Telegram |
 | :---: | :---: |
-| ![Fall Demo](https://drive.google.com/uc?id=1B4VJfd-5L4IOFMOcbjW04rnp-9cgpTw0) | ![Telegram Alert](https://drive.google.com/uc?id=1ioo9wUm1lMq914BGk8Xa8l4CIy_K8X2x) |
+| <video src="./gif/falling.mp4" width="350"></video> | ![Telegram Alert](./gif/telegram_alert.jpg) |
 | *Bắt trọn khoảnh khắc té ngã thực tế* | *Thông báo tức thời kèm ảnh chụp hiện trường* |
 
 ## 🚀 3. Thành tựu nổi bật
@@ -61,6 +59,7 @@ So sánh hiệu năng giữa các kiến trúc mô hình trên tập Test:
 
 ---
 *Dự án thực hiện vào tháng 12/2025*.
+
 
 
 
