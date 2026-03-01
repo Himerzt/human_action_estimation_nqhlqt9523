@@ -16,7 +16,7 @@ Dự án tập trung xây dựng hệ thống giám sát thông minh, tự độ
 
 | Phát hiện hành vi FALL | Cảnh báo qua Telegram | Giao diện Web kiểm thử |
 | :---: | :---: | :---: |
-| ![Fall Demo](https://via.placeholder.com/300x200) | ![Telegram Alert](https://via.placeholder.com/300x200) | ![Web UI](https://via.placeholder.com/300x200) |
+| ![Fall Demo](https://via.placeholder.com/300x200) | ![Telegram Alert](https://drive.google.com/drive/folders/1YiaWHanmiXc8hNfJb7ARlnIp1RghVPOb/300x200) | ![Web UI](https://via.placeholder.com/300x200) |
 | *Hình 3:2: Nhận diện ngã*  | *Hình 3:3: Thông báo khẩn*  | *Hình 3:6: Dashboard hệ thống*  |
 
 ## 🚀 3. Thành tựu nổi bật
@@ -56,5 +56,6 @@ So sánh hiệu năng giữa các kiến trúc mô hình trên tập Test:
 
 ---
 *Dự án thực hiện vào tháng 12/2025*.
+
 
 
