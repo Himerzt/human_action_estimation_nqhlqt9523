@@ -1,54 +1,26 @@
 🛡️ Hệ Thống Nhận Diện Hành Động Người Dùng Cảnh Báo An Toàn
-📌 Tổng quan dự án
-Đây là hệ thống giám sát an toàn thời gian thực, chuyên biệt để phát hiện các hành động nguy hiểm (như Ngã, Leo trèo). Dự án được thực hiện từ tháng 09/2025 đến tháng 11/2025 nhằm giải quyết bài toán cân bằng giữa độ chính xác cao của Deep Learning và giới hạn phần cứng của thiết bị đầu cuối.
-+2
+(Chèn các Badge/Nhãn thông số tại đây)
 
-🎥 Demo & Hình ảnh thực tế
-(Ông hãy chèn ảnh GIF hoặc link video quay cảnh mô hình đang nhận diện hành động từ slide vào đây nhé)
+📑 Mục lục
 
-🚀 Thành tựu nổi bật
+### 1. Giới thiệu dự án (Project Overview) 
 
-Độ chính xác vượt trội: Đạt mức 98.11% nhờ kiến trúc Fusion model tối ưu.
+2. Demo & Hình ảnh thực tế (Visuals)
 
 
-Cải tiến mạnh mẽ: Vượt xa mức baseline ban đầu là 86.6%.
+3. Thành tựu nổi bật (Key Achievements) 
 
 
-Tối ưu hóa thời gian thực: Triển khai giải pháp dựa trên Keypoint giúp duy trì tốc độ 5-10 FPS, đảm bảo hoạt động ổn định trong nhiều điều kiện môi trường.
-
-🏗️ Kiến trúc kỹ thuật
-Hệ thống sử dụng một quy trình xử lý phức hợp để phân tích cả dữ liệu không gian và thời gian:
+4. Kiến trúc hệ thống (Architecture) 
 
 
-Phát hiện & Ước lượng tư thế: Sử dụng YOLOv8 và OpenPose để nhận diện người và trích xuất các điểm chốt (keypoints) trên cơ thể.
-+1
+5. Công nghệ sử dụng (Tech Stack) 
 
 
-Phân tích chuỗi hành động: Áp dụng mô hình LSTM (Long Short-Term Memory) để xử lý chuỗi các điểm chốt theo thời gian, từ đó nhận diện chính xác hành động.
-+1
+6. Kết quả thực nghiệm (Evaluation Results) 
 
 
-Thử nghiệm đa dạng: Đã thiết kế và đánh giá nhiều kiến trúc khác nhau bao gồm Skeleton-based, Image-based (MobileNetV2) và Fusion models để tìm ra giải pháp tối ưu nhất.
-+1
-
-🛠️ Công nghệ sử dụng
-
-Mô hình chính: YOLOv8, OpenPose, LSTM, MobileNetV2.
+7. Tài nguyên bổ sung (External Resources) 
 
 
-Thư viện: PyTorch, OpenCV, NumPy, Pandas.
-+1
-
-📂 Tài nguyên & Tài liệu đính kèm
-Do kích thước bộ dữ liệu và trọng số mô hình lớn, các tài liệu chi tiết được lưu trữ tại:
-
-Mã nguồn đầy đủ & Trọng số mô hình (Google Drive): (Dán link Drive của ông vào đây)
-
-
-Slide thuyết trình dự án chi tiết (PDF): (Dán link Slide của ông vào đây) - Đây là bản trình bày đầy đủ các biểu đồ hiệu năng, sơ đồ kiến trúc và minh chứng thực tế.
-
-🤝 Vai trò trong dự án
-Dự án được thực hiện bởi nhóm 2 thành viên.
-
-
-Vai trò của tôi: Tiền xử lý dữ liệu & Phát triển mô hình (Data Preprocessing & Model Developer).
+8. Thông tin tác giả (Contributors)
