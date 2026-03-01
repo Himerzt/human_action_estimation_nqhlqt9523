@@ -1,5 +1,12 @@
 ### 🛡️ Hệ Thống Nhận Diện Hành Động Người Dùng Cảnh Báo An Toàn
-(Chèn các Badge/Nhãn thông số tại đây)
+
+![Python](https://img.shields.io/badge/Ngôn_ngữ-Python_3.8%2B-blue)
+
+![Accuracy](https://img.shields.io/badge/Độ_chính_xác-98.11%25-green)
+
+![Framework](https://img.shields.io/badge/Framework-PyTorch_%26_YOLOv8-red)
+
+![English](https://img.shields.io/badge/Tiếng_Anh-770_TOEIC-orange)
 
 ### 📑 Mục lục
 
@@ -24,4 +31,5 @@
 
 
 ### 8. Thông tin tác giả (Contributors)
+
 
